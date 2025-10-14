@@ -75,11 +75,15 @@ class Feature extends BaseConfig
 
 "| tee -a  /var/www/$project/app/Config/Feature.php  > /dev/null
 
-#clear
+cd /var/www/$project
+clear
 
 echo "
-
 CodeIgniter $version is now installed, find your project root @ /var/www/$project
+
+To install Shield
+composer require codeigniter4/shield
+php spark shield:setup
 
 on the browser go to http://$ip
 "
