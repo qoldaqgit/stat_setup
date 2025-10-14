@@ -1,3 +1,4 @@
+#sudo curl -sSL https://raw.githubusercontent.com/qoldaqgit/stat_setup/refs/heads/main/ci4/install.sh
 sudo apt update
 sudo apt install php phpunit composer
 
