@@ -36,7 +36,9 @@ sudo systemctl restart apache2
 
 #Setup Dev Env
 touch /var/www/$project/.env
-echo CI_ENVIRONMENT = development | tee -a /var/www/$project/.env
+echo "CI_ENVIRONMENT = development 
+app.baseURL = 'http://$ip'
+app.indexPage = ''"| tee -a /var/www/$project/.env
 
 #Activate autoRoute =true
 > /var/www/$project/app/Config/Routing.php
