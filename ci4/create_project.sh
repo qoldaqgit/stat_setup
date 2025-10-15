@@ -77,7 +77,6 @@ class Feature extends BaseConfig
 
 "| tee -a  /var/www/$project/app/Config/Feature.php  > /dev/null
 
-cd /var/www/$project
 clear
 
 echo "
@@ -89,3 +88,4 @@ php spark shield:setup
 
 on the browser go to http://$ip
 "
+cd /var/www/$project
