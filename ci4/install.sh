@@ -6,3 +6,4 @@ sudo apt install apache2  php zip unzip php-zip php-curl libapache2-mod-php php-
 wget -q https://raw.githubusercontent.com/qoldaqgit/stat_setup/refs/heads/main/ci4/create_project.sh
 wget -q https://raw.githubusercontent.com/qoldaqgit/stat_setup/refs/heads/main/ci4/create_controller.sh
 wget -q https://raw.githubusercontent.com/qoldaqgit/stat_setup/refs/heads/main/ci4/unistall.sh
+ssh-keygen
